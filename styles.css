@@ -58,6 +58,25 @@ main {
     & .carrusel-img {
       display: none;
     }
+    & .img-large {
+      position: relative;
+      & .navigation-image {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+        top: 40%;
+        & .b-navigation {
+          display: grid;
+          place-items: center;
+          width: 45px;
+          height: 45px;
+          background-color: var(--white);
+          border-radius: 50%;
+        }
+      }
+    }
   }
   & .details-container {
     padding: 25px;
