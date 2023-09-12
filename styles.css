@@ -29,6 +29,7 @@ img {
   display: flex;
   padding: 20px;
   justify-content: space-between;
+  align-items: baseline;
   & .menu-logo {
     display: flex;
     gap: 10px;
@@ -37,6 +38,7 @@ img {
   & .user-data {
     display: flex;
     gap: 25px;
+    align-items: baseline;
     & .img-user img {
       width: 25px;
       height: 25px;
@@ -87,7 +89,7 @@ main {
       gap: 10px;
       background-color: var(--orange);
     }
-    & .prices{
+    & .prices {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -111,7 +113,7 @@ main {
       display: flex;
       padding: 10px 25px;
       justify-content: space-between;
-      & .units{
+      & .units {
         font-weight: 700;
       }
     }
