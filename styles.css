@@ -71,12 +71,14 @@ main {
     & p {
       color: var(--darkGrayishBlue);
       margin-bottom: 10px;
+      line-height: 1.5625rem;
     }
     & button {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 20px;
+      font-size: 1.09rem;
       border-radius: 10px;
       color: var(--white);
       font-weight: 700;
