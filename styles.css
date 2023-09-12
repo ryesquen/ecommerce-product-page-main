@@ -28,7 +28,7 @@ img {
 .header {
   display: flex;
   padding: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   & .menu-logo {
     display: flex;
     gap: 10px;
