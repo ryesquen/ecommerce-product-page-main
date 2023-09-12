@@ -49,7 +49,7 @@ img {
       & .number_products {
         position: absolute;
         color: var(--white);
-        font-size: .8rem;
+        font-size: 0.8rem;
         background-color: var(--orange);
         top: -10px;
         right: -16px;
@@ -68,6 +68,7 @@ main {
   & .images-container {
     display: flex;
     flex-direction: column;
+    position: relative;
     & .carrusel-img {
       display: none;
     }
@@ -151,5 +152,35 @@ main {
         font-weight: 700;
       }
     }
+  }
+}
+
+.modal-info {
+  display: none;
+  position: absolute;
+  margin: auto;
+  border-radius: 10px;
+  top: 3%;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  min-height: 250px;
+  color: var(--black);
+  width: 94%;
+  background-color: var(--white);
+  & .modal-info_title span {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(veryDarkBlue);
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid var(--grayishBlue);
+  }
+  & .modal-info_body span {
+    color: var(--darkGrayishBlue);
+    display: grid;
+    font-weight: 700;
+    place-items: center;
+    min-height: 200px;
   }
 }
