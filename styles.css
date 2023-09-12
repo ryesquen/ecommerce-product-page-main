@@ -44,6 +44,19 @@ img {
       height: 25px;
       border-radius: 50%;
     }
+    & .car-products {
+      position: relative;
+      & .number_products {
+        position: absolute;
+        color: var(--white);
+        font-size: .8rem;
+        background-color: var(--orange);
+        top: -10px;
+        right: -15px;
+        padding: 1px 10px;
+        border-radius: 10px;
+      }
+    }
   }
   & .links-menu {
     border: 1px solid green;
