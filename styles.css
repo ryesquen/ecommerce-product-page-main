@@ -85,9 +85,33 @@ main {
       gap: 10px;
       background-color: var(--orange);
     }
+    & .prices{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .withDesc {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--veryDarkBlue);
+      }
+      & .desc {
+        font-size: rem;
+        font-weight: 700;
+        color: var(--orange);
+      }
+      & .total {
+        font-weight: 400;
+        color: var(--grayishBlue);
+        text-decoration: line-through;
+      }
+    }
+    & .add-products {
+      display: flex;
+      padding: 10px 25px;
+      justify-content: space-between;
+      & .units{
+        font-weight: 700;
+      }
+    }
   }
-}
-
-path {
-  fill: currentColor !important;
 }
