@@ -8,6 +8,7 @@
   --lightGrayishBlue: hsl(223, 64%, 98%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
+  --black75: rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -18,6 +19,7 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
+  position: relative;
 }
 
 img {
@@ -59,8 +61,25 @@ img {
     }
   }
   & .links-menu {
-    border: 1px solid green;
     display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--black75);
+    position: absolute;
+    z-index: 100;
+    & nav {
+      width: 60vw;
+      height: 100vh;
+      padding: 20px;
+      background-color: var(--white);
+      & .link-item {
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 20px;
+        list-style: none;
+      }
+    }
   }
 }
 
