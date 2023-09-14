@@ -60,7 +60,7 @@ img {
       }
     }
   }
-  & .links-menu {
+  & .links_menu {
     display: none;
     opacity: 0;
     top: 0;
@@ -83,11 +83,12 @@ img {
       }
     }
     &.show {
-      animation: fade-out 0.5s forwards;
+      animation: fade-in 0.5s forwards;
       display: block;
     }
-    & .no_show {
-      animation: fade-in 0.5s forwards;
+    &.no_show {
+      animation: fade-out 0.5s forwards;
+      display: none;
     }
   }
 }
@@ -215,13 +216,12 @@ main {
 
 @keyframes fade-out {
   to {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 @keyframes fade-in {
   to {
-    display: none;
-    opacity: 0;
+    opacity: 1;
   }
 }

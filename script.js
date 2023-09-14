@@ -1,13 +1,13 @@
-const linksMenu = document.querySelector('.links-menu')
+const links_menu = document.querySelector('.links_menu')
 const close_menu = document.querySelector('.close_menu')
 const open_menu = document.querySelector('.open_menu')
 
 open_menu.addEventListener('click', () => {
-  linksMenu.classList.remove('no_show')
-  linksMenu.classList.add('show')
+  links_menu.classList.remove('no_show')
+  links_menu.classList.add('show')
 })
 
 close_menu.addEventListener('click', () => {
-  linksMenu.classList.remove('show')
-  linksMenu.classList.add('no_show')
+  links_menu.classList.remove('show')
+  links_menu.classList.add('no_show')
 })
