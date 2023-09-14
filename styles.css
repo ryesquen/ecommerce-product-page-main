@@ -75,8 +75,11 @@ img {
       height: 100%;
       padding: 20px;
       background-color: var(--white);
+      & .close_menu{
+        width: 20px;
+      }
       & .link-item {
-        font-size: 1.125rem;
+        font-size: 1.3125rem;
         font-weight: 700;
         padding: 40px 0 10px 0;
         list-style: none;
