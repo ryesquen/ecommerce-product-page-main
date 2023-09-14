@@ -8,7 +8,7 @@
   --lightGrayishBlue: hsl(223, 64%, 98%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
-  --black75: rgba(0, 0, 0, 0.5);
+  --black75: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -91,7 +91,6 @@ img {
     }
     &.no_show {
       animation: fade-out 0.5s forwards;
-      display: none;
     }
   }
 }
@@ -220,6 +219,7 @@ main {
 @keyframes fade-out {
   to {
     opacity: 0;
+    display: none;
   }
 }
 
