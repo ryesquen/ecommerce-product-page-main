@@ -76,9 +76,9 @@ img {
       padding: 20px;
       background-color: var(--white);
       & .link-item {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
-        padding-top: 20px;
+        padding: 40px 0 10px 0;
         list-style: none;
       }
     }
